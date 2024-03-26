@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_hpv_videos",
+  "info": {
+    "displayName": "hpv_videos"
+  },
+  "options": {},
+  "attributes": {
+    "video_link": {
+      "type": "string"
+    },
+    "video_title": {
+      "type": "string"
+    }
+  }
+}

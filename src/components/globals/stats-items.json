@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_globals_stats_items",
+  "info": {
+    "displayName": "stats_items"
+  },
+  "options": {},
+  "attributes": {
+    "cta_title": {
+      "type": "string"
+    }
+  }
+}

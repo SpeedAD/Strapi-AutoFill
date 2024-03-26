@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_instgramfeeds",
+  "info": {
+    "displayName": "instgramfeed",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "insta_card": {
+      "displayName": "image_cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.image-cards"
+    },
+    "heading_text": {
+      "type": "string"
+    },
+    "disclaimer_heading": {
+      "type": "text"
+    },
+    "disclaimer_sub_text": {
+      "type": "text"
+    },
+    "disclaimer_full_form_text": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_health_effects",
+  "info": {
+    "displayName": "health_effects",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "main_description": {
+      "type": "text"
+    },
+    "cancer_types": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.complications-point-grid"
+    },
+    "share_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "globals.share-btn"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_vaccination_advantages",
+  "info": {
+    "displayName": "vaccination_advantages",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "percentage_value": {
+      "type": "integer",
+      "max": 100,
+      "min": 0
+    },
+    "section_points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.text-only-points"
+    },
+    "section_animated_vid": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

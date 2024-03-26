@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_globals_about_prevention_ctas",
+  "info": {
+    "displayName": "about_prevention_cta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cta_text": {
+      "type": "string"
+    },
+    "cta_link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_faqs",
+  "info": {
+    "displayName": "faq",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading_text": {
+      "type": "string"
+    },
+    "qanda": {
+      "displayName": "qanda",
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.qanda"
+    }
+  }
+}

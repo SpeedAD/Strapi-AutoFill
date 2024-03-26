@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_globals_play_buttons",
+  "info": {
+    "displayName": "play button"
+  },
+  "options": {},
+  "attributes": {
+    "play_btn_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "pause_btn_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

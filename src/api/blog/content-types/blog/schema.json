@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "Blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "blog_authors": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::blog-author.blog-author",
+      "mappedBy": "blogs"
+    },
+    "posted_at": {
+      "type": "date"
+    },
+    "read_minutes_text": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "breadcrumb_text": {
+      "type": "string"
+    },
+    "share_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "globals.share-btn"
+    },
+    "intro_text": {
+      "type": "text"
+    },
+    "blog_section": {
+      "displayName": "blog_section",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.blog-section"
+    },
+    "isFeatured": {
+      "type": "boolean",
+      "default": false
+    },
+    "blog_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::blog-category.blog-category"
+    },
+    "site_meta_data": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.meta-data"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "main_title"
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

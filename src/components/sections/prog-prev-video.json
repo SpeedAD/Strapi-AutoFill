@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_prog_prev_videos",
+  "info": {
+    "displayName": "prog_prev_video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "main_description": {
+      "type": "text"
+    },
+    "video_link": {
+      "type": "string"
+    },
+    "play_btn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "globals.play-button"
+    }
+  }
+}

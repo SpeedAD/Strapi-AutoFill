@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_types_to_look_fors",
+  "info": {
+    "displayName": "types_to_look_for",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "main_description": {
+      "type": "text"
+    },
+    "sub_description": {
+      "type": "text"
+    },
+    "hpv_types": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.complications-point-grid"
+    }
+  }
+}

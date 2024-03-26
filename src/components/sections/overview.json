@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_overviews",
+  "info": {
+    "displayName": "overview",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sub_text_one": {
+      "type": "string"
+    },
+    "talk_to_expert_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.nav-cta"
+    },
+    "overview_heading": {
+      "type": "string"
+    },
+    "sub_text_two": {
+      "type": "string"
+    },
+    "sub_text_three": {
+      "type": "string"
+    },
+    "share_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "globals.share-btn"
+    }
+  }
+}

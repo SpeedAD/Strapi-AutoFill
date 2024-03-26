@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_vaccination_sections",
+  "info": {
+    "displayName": "vaccination_section"
+  },
+  "options": {},
+  "attributes": {
+    "ways_to_prevent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.complications-point-grid"
+    },
+    "section_sub_text": {
+      "type": "string"
+    },
+    "vaccination_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.nav-cta"
+    }
+  }
+}

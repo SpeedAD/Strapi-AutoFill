@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_globals_qandas",
+  "info": {
+    "displayName": "qanda",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question_text": {
+      "type": "string"
+    },
+    "answer_text": {
+      "type": "text"
+    },
+    "faq_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::faq-category.faq-category"
+    }
+  }
+}

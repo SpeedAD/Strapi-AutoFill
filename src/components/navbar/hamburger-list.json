@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_navbar_hamburger_lists",
+  "info": {
+    "displayName": "hamburger_list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

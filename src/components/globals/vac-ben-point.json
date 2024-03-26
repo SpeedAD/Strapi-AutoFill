@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_globals_vac_ben_points",
+  "info": {
+    "displayName": "vac_ben_point",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "point_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "point_title": {
+      "type": "string"
+    },
+    "point_disclaimer": {
+      "type": "string"
+    },
+    "point_bullets": {
+      "type": "richtext"
+    }
+  }
+}

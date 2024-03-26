@@ -1,0 +1,123 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hpv_infection_pages",
+  "info": {
+    "singularName": "hpv-infection-page",
+    "pluralName": "hpv-infection-pages",
+    "displayName": "HPV infection page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.banner"
+      ]
+    },
+    "Types_of_cancer": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.types-of-cancer"
+      ]
+    },
+    "how_it_spreads": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.how-it-spreads"
+      ]
+    },
+    "Types_to_look_for": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.types-to-look-for"
+      ]
+    },
+    "health_effects": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.health-effects"
+      ]
+    },
+    "about_hpv": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.about-hpv"
+      ]
+    },
+    "porg_prev_video": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.prog-prev-video"
+      ]
+    },
+    "hpv_identification": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.hpv-identification"
+      ]
+    },
+    "hpv_beyond_basics": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.hpv-beyond-basics"
+      ]
+    },
+    "word_of_caution": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.word-of-caution"
+      ]
+    },
+    "hpv_stats_section_text": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.hpv-stats-section"
+      ]
+    },
+    "hpv_stats_data": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.hpv-stats-data"
+      ]
+    },
+    "hpv_prevention": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.hpv-prevention"
+      ]
+    },
+    "portrait_videos": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.portrait-videos"
+      ]
+    },
+    "talk_to_gynac": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.talk-to-gynac"
+      ]
+    },
+    "footer_note_title": {
+      "type": "string"
+    },
+    "footer_note_description": {
+      "type": "string"
+    },
+    "site_meta_data": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.meta-data"
+    },
+    "page_faqs": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.page-faqs"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_navbar_nav_links_desktops",
+  "info": {
+    "displayName": "nav_links_desktop"
+  },
+  "options": {},
+  "attributes": {
+    "nav_link_text": {
+      "type": "string",
+      "required": true
+    },
+    "nav_link_endpoint": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

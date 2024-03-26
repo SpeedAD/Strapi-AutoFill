@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_myth_points",
+  "info": {
+    "displayName": "myth_points"
+  },
+  "options": {},
+  "attributes": {
+    "myth_question": {
+      "type": "string"
+    },
+    "myth_answer": {
+      "type": "text"
+    }
+  }
+}

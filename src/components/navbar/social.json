@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_navbar_socials",
+  "info": {
+    "displayName": "social"
+  },
+  "options": {},
+  "attributes": {
+    "social_icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "social_link": {
+      "type": "string"
+    }
+  }
+}

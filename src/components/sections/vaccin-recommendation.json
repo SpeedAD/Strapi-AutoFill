@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_vaccin_recommendations",
+  "info": {
+    "displayName": "vaccin_recommendation"
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "section_points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.complications-point-grid"
+    }
+  }
+}

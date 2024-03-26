@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_sections_calling_parents",
+  "info": {
+    "displayName": "calling_parents"
+  },
+  "options": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "section_icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "section_points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.text-only-points"
+    },
+    "right_side_title": {
+      "type": "string"
+    },
+    "right_side_subtitle": {
+      "type": "string"
+    },
+    "talk_to_an_expert_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.nav-cta"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "displayName": "footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footer_social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar.social"
+    },
+    "footer_menu": {
+      "displayName": "footer menu",
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.footer-menu"
+    },
+    "menu_right_text": {
+      "type": "string"
+    },
+    "menu_right_date": {
+      "type": "string"
+    },
+    "point_heading": {
+      "type": "string"
+    },
+    "copyright_text": {
+      "type": "richtext"
+    },
+    "footer_menu_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footer_menu_link": {
+      "type": "string"
+    },
+    "footer_reference_points": {
+      "displayName": "Rich text points",
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.rich-text-points"
+    },
+    "nav_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar.nav-links-desktop"
+    }
+  }
+}

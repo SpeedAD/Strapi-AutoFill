@@ -1,0 +1,110 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hpv_prevention_pages",
+  "info": {
+    "singularName": "hpv-prevention-page",
+    "pluralName": "hpv-prevention-pages",
+    "displayName": "HPV prevention page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_section_main_text": {
+      "type": "string"
+    },
+    "hero_section_sub_text": {
+      "type": "string"
+    },
+    "hero_section_about_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.nav-cta"
+    },
+    "Types_of_cancer": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.types-of-cancer"
+      ]
+    },
+    "vaccination_section": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.vaccination-section"
+      ]
+    },
+    "vaccin_recommendation": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.vaccin-recommendation"
+      ]
+    },
+    "types_of_vaccines": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.types-of-vaccines"
+      ]
+    },
+    "vaccination_benefits": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.vaccination-benefits"
+      ]
+    },
+    "calling_parents": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.calling-parents"
+      ]
+    },
+    "take_the_step": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.take-the-step"
+      ]
+    },
+    "cost_effective": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.cost-effective"
+      ]
+    },
+    "safeguard_yourself": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.safeguard-yourself"
+      ]
+    },
+    "page_faqs": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.page-faqs"
+      ]
+    },
+    "site_meta_data": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.meta-data"
+    },
+    "footer_note_title": {
+      "type": "string"
+    },
+    "footer_note_description": {
+      "type": "string"
+    },
+    "hpv_beyond_the_basics": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.hpv-beyond-basics"
+      ]
+    },
+    "portrait_videos": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.portrait-videos"
+      ]
+    }
+  }
+}

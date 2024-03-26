@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_transmission_twos",
+  "info": {
+    "displayName": "transmission_two",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading_text_mobile": {
+      "type": "string"
+    },
+    "heading_text_desktop": {
+      "type": "string"
+    },
+    "transmission_grid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.complications-point-grid"
+    },
+    "sub_text": {
+      "type": "string"
+    },
+    "share_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "globals.share-btn"
+    }
+  }
+}

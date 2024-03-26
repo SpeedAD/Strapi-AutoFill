@@ -1,0 +1,121 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "navbar": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.hamburger"
+    },
+    "Banner": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.banner"
+      ]
+    },
+    "complications": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.complications"
+      ]
+    },
+    "videoBanner": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.video-banner"
+      ]
+    },
+    "overview": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.overview"
+      ]
+    },
+    "risks": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.risks"
+      ]
+    },
+    "transmission_one": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.transmission-one"
+      ]
+    },
+    "transmission_two": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.transmission-two"
+      ]
+    },
+    "prevntion": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.prevention"
+      ]
+    },
+    "whoswho": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.whoswho"
+      ]
+    },
+    "daignosis": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.diagnosis"
+      ]
+    },
+    "lookAround": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.lookaround"
+      ]
+    },
+    "faq": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.faq"
+      ]
+    },
+    "instagram_feed": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.instgramfeed"
+      ]
+    },
+    "footer": {
+      "type": "dynamiczone",
+      "components": [
+        "footer.footer"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "metaData": {
+      "displayName": "metaData",
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.meta-data"
+    },
+    "visitor_count": {
+      "type": "string"
+    }
+  }
+}

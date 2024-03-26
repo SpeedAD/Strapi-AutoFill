@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_seo_meta_data",
+  "info": {
+    "displayName": "metaData"
+  },
+  "options": {},
+  "attributes": {
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "string"
+    },
+    "keyword": {
+      "type": "string"
+    },
+    "breadCrumbSchema": {
+      "type": "json"
+    },
+    "siteNavigationSchema": {
+      "type": "json"
+    },
+    "webPageSchema": {
+      "type": "json"
+    }
+  }
+}

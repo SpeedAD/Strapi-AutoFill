@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_take_the_steps",
+  "info": {
+    "displayName": "take_the_step",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "step_points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.complications-point-grid"
+    }
+  }
+}

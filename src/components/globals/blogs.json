@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_globals_blogs",
+  "info": {
+    "displayName": "Blogs_preview_card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "author": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "duration_label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

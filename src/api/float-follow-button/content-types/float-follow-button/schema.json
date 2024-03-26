@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "float_follow_buttons",
+  "info": {
+    "singularName": "float-follow-button",
+    "pluralName": "float-follow-buttons",
+    "displayName": "Float follow button "
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "button_label": {
+      "type": "string"
+    },
+    "social_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar.social"
+    }
+  }
+}

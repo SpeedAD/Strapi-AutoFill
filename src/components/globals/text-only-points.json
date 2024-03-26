@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_globals_text_only_points",
+  "info": {
+    "displayName": "text_only_points",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "point_text": {
+      "type": "string"
+    }
+  }
+}

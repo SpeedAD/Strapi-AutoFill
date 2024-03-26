@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_how_it_spreads",
+  "info": {
+    "displayName": "how_it_spreads",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "share_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "globals.share-btn"
+    },
+    "how_it_spreads": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.complications-point-grid"
+    },
+    "bottom_text": {
+      "type": "text"
+    }
+  }
+}

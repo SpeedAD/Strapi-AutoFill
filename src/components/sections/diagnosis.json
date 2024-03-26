@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_diagnoses",
+  "info": {
+    "displayName": "diagnosis",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading_text_one": {
+      "type": "string"
+    },
+    "diagnosis_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.nav-cta"
+    },
+    "silence_holder": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.complications-point-grid"
+    },
+    "heading_text_two": {
+      "type": "string"
+    }
+  }
+}

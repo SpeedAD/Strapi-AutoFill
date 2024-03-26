@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_added_myths",
+  "info": {
+    "displayName": "added_myths",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "myth_points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.myth-points"
+    },
+    "section_title": {
+      "type": "string"
+    }
+  }
+}

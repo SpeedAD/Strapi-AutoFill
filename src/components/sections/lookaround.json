@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_lookarounds",
+  "info": {
+    "displayName": "lookaround",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading_text": {
+      "type": "string"
+    },
+    "sub_text_one": {
+      "type": "text"
+    },
+    "sub_text_two": {
+      "type": "text"
+    }
+  }
+}

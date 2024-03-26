@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_globals_complications_point_grid_s",
+  "info": {
+    "displayName": "complications point grid ",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "point_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "point_text": {
+      "type": "string"
+    },
+    "point_title": {
+      "type": "string"
+    }
+  }
+}

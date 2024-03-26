@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_navbar_nav_ctas",
+  "info": {
+    "displayName": "nav_cta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cta_title": {
+      "type": "string"
+    },
+    "cta_description": {
+      "type": "string"
+    },
+    "cta_link": {
+      "type": "string"
+    },
+    "cta_tag": {
+      "type": "string"
+    }
+  }
+}

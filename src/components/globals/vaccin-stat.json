@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_globals_vaccin_stats",
+  "info": {
+    "displayName": "vaccin_stat",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "stat_label": {
+      "type": "string"
+    },
+    "stat_value": {
+      "type": "string"
+    },
+    "value_type": {
+      "type": "enumeration",
+      "enum": [
+        "approximate",
+        "actual"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_preventions",
+  "info": {
+    "displayName": "prevention",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading_text_one": {
+      "type": "string"
+    },
+    "gird_section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.complications-point-grid"
+    },
+    "cta_section_text": {
+      "type": "string"
+    },
+    "prevention_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.nav-cta"
+    },
+    "heading_text_two": {
+      "type": "string"
+    },
+    "share_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "globals.share-btn"
+    }
+  }
+}

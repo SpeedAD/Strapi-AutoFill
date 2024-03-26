@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_globals_text_and_links",
+  "info": {
+    "displayName": "text_and_link"
+  },
+  "options": {},
+  "attributes": {
+    "point_text": {
+      "type": "text"
+    },
+    "point_link": {
+      "type": "string"
+    }
+  }
+}

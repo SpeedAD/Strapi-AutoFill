@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_cost_effectives",
+  "info": {
+    "displayName": "cost_effective"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "locate_clinic_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.nav-cta"
+    },
+    "video_link": {
+      "type": "string"
+    }
+  }
+}

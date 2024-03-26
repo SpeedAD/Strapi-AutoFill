@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_safeguard_yourselves",
+  "info": {
+    "displayName": "safeguard_yourself",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "get_vaccination": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.nav-cta"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_protect_your_children",
+  "info": {
+    "displayName": "protect_your_child"
+  },
+  "options": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "section_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "section_description": {
+      "type": "text"
+    },
+    "know_more_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.nav-cta"
+    },
+    "info_icon_text": {
+      "type": "text"
+    }
+  }
+}

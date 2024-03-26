@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_sections_transmission_ones",
+  "info": {
+    "displayName": "transmission_one",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading_text": {
+      "type": "string"
+    },
+    "sub_text_one": {
+      "type": "string"
+    },
+    "row_one_heading": {
+      "type": "string"
+    },
+    "row_one_points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.text-only-points"
+    },
+    "row_two_heading": {
+      "type": "string"
+    },
+    "row_two_points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.text-only-points"
+    },
+    "sub_text_two": {
+      "type": "string"
+    }
+  }
+}

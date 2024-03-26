@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_video_banners",
+  "info": {
+    "displayName": "video banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "play_btn": {
+      "displayName": "play button",
+      "type": "component",
+      "repeatable": false,
+      "component": "globals.play-button"
+    },
+    "video_mob": {
+      "type": "component",
+      "repeatable": false,
+      "component": "globals.video"
+    },
+    "video_desktop": {
+      "type": "component",
+      "repeatable": false,
+      "component": "globals.video"
+    }
+  }
+}

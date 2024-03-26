@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_types_of_cancers",
+  "info": {
+    "displayName": "types_of_cancer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "type_points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.complications-point-grid"
+    },
+    "share_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "globals.share-btn"
+    }
+  }
+}

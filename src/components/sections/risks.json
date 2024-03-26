@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_risks",
+  "info": {
+    "displayName": "risks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading_text": {
+      "type": "string"
+    },
+    "sub_text_one": {
+      "type": "string"
+    },
+    "risk_talk_to_expert_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.nav-cta"
+    },
+    "risk_points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.complications-point-grid"
+    },
+    "sub_text_two": {
+      "type": "string"
+    },
+    "share_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "globals.share-btn"
+    }
+  }
+}

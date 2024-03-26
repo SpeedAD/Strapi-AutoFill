@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_hpv_stats_data",
+  "info": {
+    "displayName": "hpv_stats_data"
+  },
+  "options": {},
+  "attributes": {
+    "cta_title": {
+      "type": "string"
+    },
+    "stat_points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.complications-point-grid"
+    }
+  }
+}

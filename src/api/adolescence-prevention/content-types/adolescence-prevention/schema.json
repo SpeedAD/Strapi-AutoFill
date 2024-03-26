@@ -1,0 +1,93 @@
+{
+  "kind": "collectionType",
+  "collectionName": "adolescence_preventions",
+  "info": {
+    "singularName": "adolescence-prevention",
+    "pluralName": "adolescence-preventions",
+    "displayName": "Adolescence Prevention",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_section": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.hero-section"
+      ]
+    },
+    "how_to_prevent": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.how-to-prevent"
+      ]
+    },
+    "hpv_cancers": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.hpv-cancers"
+      ]
+    },
+    "daughter_protection": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.daughter-protection"
+      ]
+    },
+    "son_protection": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.daughter-protection"
+      ]
+    },
+    "hpv_beyond_the_basics": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.hpv-beyond-basics"
+      ]
+    },
+    "vaccination_advantages": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.vaccination-advantages"
+      ]
+    },
+    "myths": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.added-myths"
+      ]
+    },
+    "portrait_videos": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.portrait-videos"
+      ]
+    },
+    "protect_your_child": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.protect-your-child"
+      ]
+    },
+    "page_faqs": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.page-faqs"
+      ]
+    },
+    "footer_note_title": {
+      "type": "string"
+    },
+    "footer_note_description": {
+      "type": "string"
+    },
+    "site_meta_data": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.meta-data"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_page_faqs",
+  "info": {
+    "displayName": "page_faqs"
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.qanda"
+    },
+    "section_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.nav-cta"
+    }
+  }
+}

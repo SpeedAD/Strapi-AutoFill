@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_hpv_cancers",
+  "info": {
+    "displayName": "hpv_cancers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "section_points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.image-text-point"
+    }
+  }
+}

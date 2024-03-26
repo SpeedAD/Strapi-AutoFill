@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_portrait_videos",
+  "info": {
+    "displayName": "portrait_videos"
+  },
+  "options": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "videos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.video"
+    },
+    "play_btn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "globals.play-button"
+    }
+  }
+}

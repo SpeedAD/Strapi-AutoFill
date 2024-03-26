@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_whoswhos",
+  "info": {
+    "displayName": "whoswho",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading_text": {
+      "type": "string"
+    },
+    "whoswho_video": {
+      "displayName": "video card",
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.video-card"
+    }
+  }
+}

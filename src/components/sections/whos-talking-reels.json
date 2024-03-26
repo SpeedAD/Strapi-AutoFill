@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_whos_talking_reels",
+  "info": {
+    "displayName": "whos_talking_reels"
+  },
+  "options": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "portrait_video_links": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_sections_daughter_protections",
+  "info": {
+    "displayName": "child_protection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "main_description": {
+      "type": "text"
+    },
+    "main_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "section_points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.image-text-point"
+    },
+    "cta_card_small_text": {
+      "type": "text"
+    },
+    "cta_card_large_text": {
+      "type": "string"
+    },
+    "consult_doctor_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.nav-cta"
+    },
+    "info_icon_text": {
+      "type": "text"
+    },
+    "toggle_cta_text": {
+      "type": "string"
+    }
+  }
+}

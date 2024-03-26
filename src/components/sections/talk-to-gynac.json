@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_talk_to_gynacs",
+  "info": {
+    "displayName": "talk_to_gynac"
+  },
+  "options": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "main_description": {
+      "type": "text"
+    },
+    "card_body_content": {
+      "type": "text"
+    },
+    "card_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.nav-cta"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_word_of_cautions",
+  "info": {
+    "displayName": "word_of_caution",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "section_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "talk_to_an_expert_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.nav-cta"
+    },
+    "caution_points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.text-only-points"
+    },
+    "cta_subtext": {
+      "type": "string"
+    }
+  }
+}

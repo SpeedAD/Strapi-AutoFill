@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_globals_video_cards",
+  "info": {
+    "displayName": "video card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "card_video": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "card_intsa_link": {
+      "type": "string"
+    },
+    "card_title_text": {
+      "type": "string"
+    },
+    "card_description_text": {
+      "type": "string"
+    },
+    "card_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

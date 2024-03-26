@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_banners",
+  "info": {
+    "displayName": "banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "entry_title": {
+      "type": "string"
+    },
+    "first_sub_text": {
+      "type": "string"
+    },
+    "second_sub_text": {
+      "type": "string"
+    },
+    "third_sub_text": {
+      "type": "string"
+    },
+    "about_prevention_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.about-prevention-cta"
+    },
+    "banner_share_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "globals.share-btn"
+    }
+  }
+}

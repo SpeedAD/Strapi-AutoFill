@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_navbar_hamburgers",
+  "info": {
+    "displayName": "hamburger",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hamburger_list": {
+      "displayName": "hamburger_list",
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar.hamburger-list"
+    },
+    "main_content": {
+      "type": "string"
+    },
+    "talk_to_expert_cta": {
+      "displayName": "nav_cta",
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.nav-cta"
+    },
+    "social_cta": {
+      "displayName": "social",
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar.social"
+    },
+    "nav_links_desktop": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar.nav-links-desktop"
+    }
+  }
+}

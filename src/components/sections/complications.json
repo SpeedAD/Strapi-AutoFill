@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_sections_complications",
+  "info": {
+    "displayName": "complications",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "entry_line_mobile": {
+      "type": "string"
+    },
+    "entry_line_desktop": {
+      "type": "string"
+    },
+    "threat_content": {
+      "type": "string"
+    },
+    "point_grid": {
+      "displayName": "complications point grid ",
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.complications-point-grid"
+    },
+    "sub_text": {
+      "type": "string"
+    },
+    "points": {
+      "displayName": "text_only_points",
+      "type": "component",
+      "repeatable": true,
+      "component": "globals.text-only-points"
+    },
+    "share_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "globals.share-btn"
+    }
+  }
+}

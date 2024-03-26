@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_globals_share_btns",
+  "info": {
+    "displayName": "share btn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "data_text": {
+      "type": "string"
+    },
+    "data_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "data_portrait_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

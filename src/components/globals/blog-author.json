@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_globals_blog_authors",
+  "info": {
+    "displayName": "blog_author"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "text"
+    }
+  }
+}
